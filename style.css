@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Shared Style*/
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100; */
+}
+.logo h2{
+    font-size: 45px;
+}
+.color_purple{
+    color:#7b68ee ;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    font-style: normal;
+
+
+}
+.button{
+    background-color: #7b68ee;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+.button:hover{
+    background-color: #c79ee5;
+    
+
+
+
+}
+
+/*Main Style*/
+header{
+    background-color:#630f2a;
+    padding-top:30px 0px;
+    position: relative;
+    z-index: 10;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .manu{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    align-items: center;
+}
+nav .manu a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+main {
+    width: 100%;
+}
+
+.hero {
+    padding: 80px 100px;
+    text-align: center;
+}
+
