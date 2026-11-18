@@ -51,11 +51,11 @@ var canvas = document.createElement("canvas");
 document.querySelector("main").prepend(canvas);
 
 canvas.width = window.innerWidth;
-canvas.height = 300;
+canvas.height = 400;
 
 canvas.style.display = "block";
 canvas.style.width = "100%";
-canvas.style.height = "300px";
+canvas.style.height = "400px";
 canvas.style.backgroundColor = "black";
 
 var ctx = canvas.getContext("2d");
